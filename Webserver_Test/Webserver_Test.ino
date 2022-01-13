@@ -1,3 +1,13 @@
+/*
+Add the following libraries if you have ESP8266:
+https://github.com/me-no-dev/ESPAsyncWebServer
+https://github.com/me-no-dev/ESPAsyncTCP
+
+For ESP32:
+https://github.com/me-no-dev/ESPAsyncWebServer
+https://github.com/me-no-dev/AsyncTCP
+*/
+
 #ifdef ESP32
   #include <WiFi.h>
   #include <AsyncTCP.h>
