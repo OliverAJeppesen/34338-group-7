@@ -15,8 +15,8 @@ LiquidCrystal_I2C lcd(0x27, 16, 2);
 #include <WiFiUdp.h>
 
 
-const char* ssid = "Hulubulu";
-const char* pass = "Thorupstrand17";
+const char* ssid = "ssid";
+const char* pass = "password";
 //WiFiClient client;
 //unsigned long channelID = 1629314; //your TS channal
 //const char * APIKey = "8SH2MRIOCLIKEXVR"; //your TS API
