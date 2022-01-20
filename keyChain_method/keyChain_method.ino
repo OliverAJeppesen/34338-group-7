@@ -28,8 +28,8 @@
 #include <LiquidCrystal_I2C.h> // Library needed for theLCD screen.
 LiquidCrystal_I2C lcd(0x27, 16, 2); // Initialize LCD screen to a two row display.
 
-const char* ssid = "Hulubulu"; // SSID and password for wifi connection.
-const char* pass = "Thorupstrand17";
+const char* ssid = "ssid"; // SSID and password for wifi connection.
+const char* pass = "password";
 
 #define SS_PIN D4 // Initialize MFRC522 instance with given pins .
 #define RST_PIN D3
